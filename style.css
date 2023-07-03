@@ -1,0 +1,166 @@
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --Soft_Magenta: hsl(300, 69%, 71%);
+}
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+@media only screen and (max-width: 375px) {
+    body{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        background-color: var(--Violet);
+        background-image: url(./images/bg-mobile.svg);
+        margin: 0;
+        color: #fff;
+    }
+    .hedder{
+        padding: 40px;
+        width:max-content;
+    }
+    .hedder img{
+        width: 150px;
+    }
+    .content{
+        padding: 40px 20px 0px 20px;
+        
+    }
+    .image{
+        width: 100%;
+    }
+    .image img{
+        width: 100%;
+    }
+    .write{
+        padding:0px 15px;
+        text-align: center;
+    }
+    .write h1{
+        font-family: 'Poppins', sans-serif; 
+        font-weight:600;
+        font-size: 1.5rem;
+        
+    }
+    .write p{
+        margin-bottom: 30px;
+        line-height: 1.5rem;
+    }
+    .write a{
+        font-family: 'Poppins', sans-serif; 
+        font-weight: 400;
+        text-decoration: none;
+        color:var(--Violet);
+        background-color: #fff;
+        padding: 10px 40px;
+        border-radius: 20px;
+    }
+    .write a:hover{
+        background-color: var(--Soft_Magenta);
+        color: #fff;
+    }
+    .attribution { 
+        font-size: 11px; text-align: center; 
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+    .footer{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        padding-right: 50px;
+    }
+    .footer a{
+        padding: 5px;
+    }
+    .footer ion-icon{
+        color: #fff;
+        outline: none;
+    }
+    .footer a :hover{
+        color: var(--Soft_Magenta);
+    }
+    .footer ul{
+        list-style: none;
+        display: flex;
+        
+    }
+}
+
+
+@media only screen and (min-width: 375px) {
+    body{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        background-color: var(--Violet);
+        background-image: url(./images/bg-desktop.svg);
+        margin: 0;
+        color: #fff;
+    }
+    .hedder{
+        padding: 40px;
+        width:max-content; 
+        
+    }
+    .content{
+        padding: 40px 40px 0px 40px;
+        display: flex;
+        justify-content:center;
+    }
+    .image{
+        width: 100%;
+    }
+    .image img{
+        width: 100%;
+    }
+    .write{
+        padding:0px 50px;
+    }
+    .write h1{
+        font-family: 'Poppins', sans-serif; 
+        font-weight: 600;
+    }
+    .write p{
+        margin-bottom: 30px;
+        line-height: 1.5rem;
+    }
+    .write a{
+        font-family: 'Poppins', sans-serif; 
+        font-weight: 400;
+        text-decoration: none;
+        color:var(--Violet);
+        background-color: #fff;
+        padding: 10px 40px;
+        border-radius: 20px;
+    }
+    .write a:hover{
+        background-color: var(--Soft_Magenta);
+        color: #fff;
+    }
+    .attribution { 
+        font-size: 11px; text-align: center; 
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+    .footer{
+        display: flex;
+        justify-content: right;
+        padding-right: 50px;
+    }
+    .footer a{
+        padding: 5px;
+    }
+    .footer ion-icon{
+        color: #fff;
+        outline: none;
+    }
+    .footer a :hover{
+        color: var(--Soft_Magenta);
+    }
+    .footer ul{
+        list-style: none;
+        display: flex;
+        
+    }
+}
